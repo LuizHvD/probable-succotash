@@ -1,0 +1,178 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50; /* Fundo cinza chumbo */
+    color: #ffffff; /* Texto branco */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+/* Container Principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #e67e22; /* Laranja */
+}
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    text-align: center;
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    transition: transform 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+.skill i {
+    font-size: 40px;
+    color: #e67e22;
+}
+
+.skill p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Estilo da Seção Habilidades */
+#habilidades {
+    text-align: center; /* Centraliza o título e o conteúdo */
+    padding: 20px; /* Espaçamento interno */
+    margin: 0 auto; /* Centraliza a seção */
+    max-width: 800px; /* Limita a largura máxima */
+}
+
+/* Estilo do Título */
+#habilidades h1 {
+    color: #e67e22; /* Cor laranja */
+    margin-bottom: px; /* Espaço abaixo do título */
+    font-size: 2rem; /* Tamanho do título */
+}
+    #habilidades h2 {
+        color: #e67e22; /* Cor laranja */
+        margin-bottom: 20px; /* Espaço abaixo do título */
+        font-size: 2rem; /* Tamanho do título */    
+}
+
+/* Grid de Habilidades */
+.skills-grid {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Espaço entre os itens */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+}
+
+/* Estilo de Cada Habilidade */
+.skill {
+    text-align: center;
+    background-color: #34495e; /* Fundo cinza escuro */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    transition: transform 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+.skill i {
+    font-size: 40px;
+    color: #e67e22; /* Ícone laranja */
+}
+
+.skill p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffffff; /* Texto branco */
+}
+
+/* Estilo das Habilidades no Tema Escuro (Padrão) */
+.skill {
+    text-align: center;
+    background-color: #34495e; /* Fundo cinza escuro */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+.skill i {
+    font-size: 40px;
+    color: #e67e22; /* Ícone laranja */
+}
+
+.skill p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffffff; /* Texto branco */
+}
+
+/* Estilo das Habilidades no Tema Claro */
+body.light-theme .skill {
+    background-color: #f0f0f0; /* Fundo cinza claro */
+}
+
+body.light-theme .skill p {
+    color: #000000; /* Texto preto */
+}
+
+/* Botão de Alternar Tema */
+.theme-button {
+    position: fixed; /* Fixa o botão na tela */
+    top: 20px;
+    right: 20px;
+    background-color: #e67e22; /* Laranja */
+    color: #ffffff; /* Texto branco */
+    border: none;
+    padding: 10px;
+    border-radius: 50%; /* Botão redondo */
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: background-color 0.3s;
+}
+
+.theme-button:hover {
+    background-color: #d35400; /* Laranja mais escuro ao passar o mouse */
+}
+
+/* Estilos para o Tema Claro */
+body.light-theme {
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+}
+
+body.light-theme h1,
+body.light-theme h2 {
+    color: #e67e22; /* Títulos continuam laranja */
+}
+
+/* Ícone do Botão */
+#theme-icon {
+    font-size: 20px;
+}
